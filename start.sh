@@ -10,4 +10,7 @@ echo '正在按照pm2'
 install_pm2
 echo '正在下载aleo-pool-prover客户端'
 wget -O aleo-pool-prover https://github.com/zkrush/aleo-pool-client/releases/download/v1.5-testnet-beta/aleo-pool-prover && chmod +x aleo-pool-prover
-pm2 start ./aleo-pool-prover --name "aleo-pool-prover" -- --pool wss://aleo.zkrush.com:3333 --account accountname --worker-name mechaname
+pm2 start ./aleo-pool-prover --name "aleo-pool-prover" -- --pool wss://aleo.zkrush.com:3333 --account $accountname --worker-name $mechaname
+echo '已启动'
+cd ~
+rm -f start.sh
