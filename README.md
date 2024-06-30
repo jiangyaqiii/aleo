@@ -6,5 +6,5 @@
  
  export mechaname=xxx 机器名称
 
- wget -O start.sh https://raw.githubusercontent.com/jiangyaqiii/aleo/main/start.sh && chmod +x start.sh && ./start.sh
+ wget -O start.sh https://raw.githubusercontent.com/jiangyaqiii/aleo/web/start.sh && chmod +x start.sh && ./start.sh
  
