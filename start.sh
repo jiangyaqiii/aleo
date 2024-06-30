@@ -4,8 +4,8 @@ function install_pm2() {
     else
         echo "PM2 未安装，正在安装..."
         sudo apt update -y
-        sudo apt install nodejs
-        sudo apt install npm
+        sudo apt install nodejs -y
+        sudo apt install npm -y
         npm install pm2@latest -g
     fi
 }
