@@ -1,3 +1,6 @@
+echo "\$nrconf{kernelhints} = 0;" >> /etc/needrestart/needrestart.conf
+echo "\$nrconf{restart} = 'l';" >> /etc/needrestart/needrestart.conf
+source ~/.bashrc
 function install_pm2() {
     if command -v pm2 > /dev/null 2>&1; then
         echo "PM2 已安装"
