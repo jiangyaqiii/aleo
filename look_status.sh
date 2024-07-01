@@ -1,1 +1,1 @@
-pm2 list
+ps aux | grep aleo-pool-prover
