@@ -11,3 +11,6 @@
 # 查看状态
 curl -s https://raw.githubusercontent.com/jiangyaqiii/aleo/web/look_status.sh |bash
 
+# 重启
+curl -s https://raw.githubusercontent.com/jiangyaqiii/aleo/web/restart.sh |bash
+
