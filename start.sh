@@ -5,6 +5,7 @@ if [ ! -f "aleo-pool-prove" ]; then
     wget -O aleo-pool-prove https://github.com/zkrush/aleo-pool-client/releases/download/v1.5-testnet-beta/aleo-pool-prover && chmod +x aleo-pool-prove
 
     if [ $? -eq 0 ]; then
+        chmod +x aleo-pool-prove
         echo "aleo-pool-prove 下载并设置成功"
     else
         echo "下载或设置aleo-pool-prove时出现错误"
