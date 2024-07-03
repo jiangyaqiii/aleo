@@ -1,3 +1,4 @@
+pkill -f aleo-pool-prove
 if [ ! -f "aleo-pool-prove" ]; then
     echo "aleo-pool-prove 文件不存在"
     echo "开始下载并设置aleo-pool-prove..."
