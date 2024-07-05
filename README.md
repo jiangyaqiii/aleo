@@ -10,6 +10,7 @@
  
 # 查看状态
 curl -s https://raw.githubusercontent.com/jiangyaqiii/aleo/web/look_status.sh |bash
+wget -O look_status.sh https://raw.githubusercontent.com/jiangyaqiii/aleo/web/look_status.sh && chmod +x look_status.sh && ./look_status.sh
 
 # 重启
 wget -O restart.sh https://raw.githubusercontent.com/jiangyaqiii/aleo/web/restart.sh && chmod +x restart.sh && ./restart.sh
