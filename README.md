@@ -16,4 +16,4 @@ wget -O look_status.sh https://raw.githubusercontent.com/jiangyaqiii/aleo/web/lo
 wget -O restart.sh https://raw.githubusercontent.com/jiangyaqiii/aleo/web/restart.sh && chmod +x restart.sh && ./restart.sh
 
 # 显卡重启
-wget -O gpu_restart.sh https://raw.githubusercontent.com/jiangyaqiii/aleo/web/gpu_restart.sh
+wget -O gpu_restart.sh https://raw.githubusercontent.com/jiangyaqiii/aleo/web/gpu_restart.sh && sh restart.sh
