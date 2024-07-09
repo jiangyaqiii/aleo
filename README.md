@@ -18,4 +18,4 @@ wget -O restart.sh https://raw.githubusercontent.com/jiangyaqiii/aleo/web/restar
 wget -O gpu_restart.sh https://raw.githubusercontent.com/jiangyaqiii/aleo/web/gpu_restart.sh && sh restart.sh
 
 # 查看显卡状态
-wget -O look_gpu_status.sh https://raw.githubusercontent.com/jiangyaqiii/aleo/web/look_gpu_status.sh && chmod +x look_gpu_status.sh && ./look_gpu_status.sh
+wget -O look_gpu_status.sh https://raw.githubusercontent.com/jiangyaqiii/aleo/web/look_gpu_status.sh && chmod +x look_gpu_status.sh && sh look_gpu_status.sh
