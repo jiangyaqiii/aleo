@@ -7,4 +7,3 @@ if [ -n "$pid" ]; then
 else
     echo 停止"
 fi
-echo ''
